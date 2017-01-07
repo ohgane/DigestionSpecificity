@@ -1,0 +1,19 @@
+Package: DigestionSpecificity
+Type: Package
+Title: Analyze Cleavage Site Specificity
+Version: 0.1.0
+Author: Kenji OHGANE
+Maintainer: Kenji OHGANE <ohgane@me.com>
+Description: This package provides a set of functions that allows to plot
+    cleavage site specificity based on identified peptide sequences. Both single
+    amino acid level plot (barchart) and dipeptide-level specificity (heatmap) can
+    be plotted.
+License: MIT + file LICENSE
+LazyData: TRUE
+Depends:
+    R (>= 3.1.0)
+Imports:
+    lattice,
+    protr,
+    viridis
+RoxygenNote: 5.0.1
