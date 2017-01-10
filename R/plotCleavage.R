@@ -77,7 +77,7 @@ plotCleavage=function(seq, after, hide.plot=FALSE, normalize=FALSE){
                stack=TRUE, auto.key=list(columns=2),
                scales=list(tck=c(1,0), alternating=FALSE), origin=0,
                par.settings=lattice::standard.theme(col=FALSE),
-               xlab="Amino acids", ylab="Frequency (counts)", ylim=c(0,NA), layout=c(2,1))
+               xlab="Amino acids", ylab="Frequency (counts)", layout=c(2,1))
     print(p)
   } else if (!hide.plot & normalize){
     p=lattice::barchart(I(Freq*100)~AA | terminal,

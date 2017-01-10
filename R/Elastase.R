@@ -10,6 +10,8 @@
 #'
 #' @keywords datasets
 #'
+#' @seealso \code{\link{LysCTryp}}
+#'
 #' @examples
 #' data(Elastase)
 #' head(Elastase)

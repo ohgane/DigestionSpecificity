@@ -9,7 +9,11 @@
 This package provides a set of functions that allows to plot
 cleavage site specificity based on identified peptide sequences. Both single
 amino acid level plot (barchart) and dipeptide-level specificity (heatmap) can
-be plotted.
+be plotted. For more detail, see the package vignette with \code{vignette(package="DigestionSpecificity")}.
+}
+\examples{
+data(LysCTryp)
+plotCleavage(LysCTryp$Sequence, LysCTryp$AAs.After)
 }
 \seealso{
 \code{\link{plotCleavage}}, \code{\link{plotCleavageMatrix}}

@@ -16,4 +16,9 @@ Imports:
     lattice,
     protr,
     viridis
+Suggests:
+  knitr,
+  rmarkdown
+VignetteBuilder:
+  knitr
 RoxygenNote: 5.0.1

@@ -15,5 +15,8 @@ Identification results from a bottom-up proteomics experiment. HeLa cell lysate 
 data(LysCTryp)
 head(LysCTryp)
 }
+\seealso{
+\code{\link{Elastase}}
+}
 \keyword{datasets}
 
